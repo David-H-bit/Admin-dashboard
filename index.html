@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Admin dashboard</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <nav id="container1">
+            <h1>Dashboard</h1>
+            <div class="dashOne">
+                <button id="Home">Home</button>
+                <button id="Profile">Profile</button>
+                <button id="Messages">Messages</button>
+                <button id="History">History</button>
+                <button id="Tasks">Tasks</button>
+                <button id="Communities">Communities</button>
+            </div>
+            <div class="dashTwo">
+                <button id="Settings">Settings</button>
+                <button id="Support">Support</button>
+                <button id="Privacy">Privacy</button>
+            </div>
+        </nav>
+    
+        <div id="container2">
+            <div>
+                <button for="searchBar" style="background-color: transparent; border: none; margin-right: 10px;">🔎</button>
+                <input type="text" id="searchBar">  
+                <p>Hi there,</p>  
+                <h3>John Doe (@johndoe)</h3>
+            </div>
+            <div id="notify">
+                <div id="notificationPanel">
+                    <button for="notification" style="background-color: transparent; border: none;">🔔</button>
+                    <h4 style="margin-left: 50px;">John Doe</h4>
+                </div>
+                <div id="buttonsCon2">
+                    <button id="new">New</button>
+                    <button id="upload">Upload</button>
+                    <button id="share">Share</button>
+                </div>
+            </div>
+        </div>
+        <div id="container3">
+            <div class="grid-container">
+                <!-- Projects area -->
+                <div class="projects-section">
+                    <h2 class="section-title">Your Projects</h2>
+                    <div class="projects-grid">
+                        <div class="card">Template</div>
+                        <div class="card">Template 2</div>
+                        <div class="card">Template 3</div>
+                        <div class="card">Template 4</div>
+                        <div class="card">Template 5</div>
+                        <div class="card">Template 6</div>
+                    </div>
+                </div>
+                
+                <!-- Side content area -->
+                <div class="side-content">
+                    <!-- Announcements section -->
+                    <div>
+                        <h3 class="section-title">Announcements</h3>
+                        <div class="tall-card">
+                            <p>Site Maintenance</p>
+                            <hr>
+                            <p>Community Share Day</p>
+                            <hr>
+                            <p>Updated Privacy Policy</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Trending section -->
+                    <div>
+                        <h3 class="section-title">Trending</h3>
+                        <div class="tall-card">
+                            <p>@tegan</p>
+                            <p>@morgan</p>
+                            <p>@kendall</p>
+                            <p>@alex</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>    
+</body>
+</html>
